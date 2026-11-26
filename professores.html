@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conheça a gestão e os docentes do CETI Petronio Portella.">
+  <meta name="theme-color" content="#103e2c">
+  <title>Equipe escolar | CETI Petronio Portella</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/img/escola/favicon.png">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script defer src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg container site-container" aria-label="Menu principal">
+      <a class="brand" href="index.html" aria-label="CETI Petronio Portella, início">
+        <img class="brand-mark" src="assets/img/escola/logo.jpeg" alt="" width="52" height="52">
+        <span class="brand-text"><span>CETI</span><strong>Petronio Portella</strong></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal" aria-expanded="false" aria-label="Alternar menu principal">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+        <ul class="navbar-nav">
+          <li><a class="nav-link" href="index.html">Início</a></li>
+          <li><a class="nav-link active" href="professores.html" aria-current="page">Equipe escolar</a></li>
+          <li><a class="nav-link" href="cursos.html">Cursos técnicos</a></li>
+          <li><a class="nav-link" href="sobre.html">Sobre o colégio</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="conteudo" tabindex="-1">
+    <section class="subhero">
+      <div class="container site-container">
+        <span class="section-label">PESSOAS QUE ENSINAM</span>
+        <h1>Equipe escolar</h1>
+        <p>Os professores são a base do colégio. Seu trabalho orienta os estudantes na construção do conhecimento e na formação para a vida em comunidade e para o mundo do trabalho.</p>
+      </div>
+    </section>
+    <div class="container site-container team-content">
+      <div class="team-directory-heading">
+        <div>
+          <span class="section-label">NOSSA COMUNIDADE ESCOLAR</span>
+          <h2>Encontre a equipe</h2>
+        </div>
+        <p>Escolha uma área e selecione um perfil para conhecer a formação e a trajetória profissional.</p>
+      </div>
+      <div class="team-categories" role="tablist" aria-label="Áreas da equipe escolar">
+        <button class="team-category active" id="aba-gestao" data-bs-toggle="tab" data-bs-target="#painel-gestao" type="button"
+          role="tab" aria-controls="painel-gestao" aria-selected="true">
+          <strong>Gestão escolar</strong><span>Direção e coordenação</span>
+        </button>
+        <button class="team-category" id="aba-tecnica" data-bs-toggle="tab" data-bs-target="#painel-tecnica" type="button"
+          role="tab" aria-controls="painel-tecnica" aria-selected="false">
+          <strong>Formação técnica</strong><span>Equipes dos quatro cursos</span>
+        </button>
+        <button class="team-category" id="aba-base" data-bs-toggle="tab" data-bs-target="#painel-base" type="button"
+          role="tab" aria-controls="painel-base" aria-selected="false">
+          <strong>Base curricular comum</strong><span>Professores por área de ensino</span>
+        </button>
+      </div>
+      <div class="tab-content team-panels">
+        <div class="tab-pane show active" id="painel-gestao" role="tabpanel" aria-labelledby="aba-gestao" tabindex="0">
+          <section class="team-section" aria-labelledby="titulo-gestao">
+            <div class="team-section-heading">
+              <h2 id="titulo-gestao">Gestão escolar</h2>
+              <p>Conheça quem acompanha a organização pedagógica e o cotidiano do colégio.</p>
+            </div>
+            <div class="profile-grid">
+              <article class="card profile-card" data-experiencia="Professora da rede estadual e municipal.">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-gestao-1">
+                  <img src="assets/img/equipe/Marinalda.jpeg" alt="Retrato de Marinalda"
+                    width="3120" height="4160" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Diretora</p>
+                  <h3 class="profile-name" id="perfil-gestao-1">Marinalda</h3>
+                  <p class="profile-formation">Licenciada em Pedagogia e em Letras Português pela Uespi. Psicopedagoga e especialista em Gestão Escolar.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-gestao-1">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Doula, professora no curso técnico em Enfermagem e coordenadora pedagógica.">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-gestao-2">
+                  <img src="assets/img/equipe/Maria%20Gabriela.jpeg" alt="Retrato de Maria Gabriela"
+                    width="1535" height="1025" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Coordenadora pedagógica</p>
+                  <h3 class="profile-name" id="perfil-gestao-2">Maria Gabriela</h3>
+                  <p class="profile-formation">Graduada em Pedagogia e em Enfermagem. Especialista em Coordenação Pedagógica e Supervisão Escolar, em Docência do Ensino Superior e em Enfermagem Obstétrica.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-gestao-2">Ver perfil completo</button>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+        <div class="tab-pane" id="painel-tecnica" role="tabpanel" aria-labelledby="aba-tecnica" tabindex="0">
+          <div class="technical-navigation" role="tablist" aria-label="Cursos da formação técnica">
+            <button class="technical-tab active" id="aba-sistemas" data-bs-toggle="tab" data-bs-target="#painel-sistemas" type="button"
+              role="tab" aria-controls="painel-sistemas" aria-selected="true">Desenvolvimento de Sistemas</button>
+            <button class="technical-tab" id="aba-analises" data-bs-toggle="tab" data-bs-target="#painel-analises" type="button"
+              role="tab" aria-controls="painel-analises" aria-selected="false">Análises Clínicas</button>
+            <button class="technical-tab" id="aba-farmacia" data-bs-toggle="tab" data-bs-target="#painel-farmacia" type="button"
+              role="tab" aria-controls="painel-farmacia" aria-selected="false">Farmácia</button>
+            <button class="technical-tab" id="aba-marketing" data-bs-toggle="tab" data-bs-target="#painel-marketing" type="button"
+              role="tab" aria-controls="painel-marketing" aria-selected="false">Marketing Digital</button>
+          </div>
+          <div class="tab-content technical-content">
+        <div class="tab-pane show active" id="painel-sistemas" role="tabpanel" aria-labelledby="aba-sistemas" tabindex="0">
+              <section class="team-section" aria-labelledby="titulo-sistemas">
+                <div class="team-section-heading">
+                  <h2 id="titulo-sistemas">Desenvolvimento de Sistemas</h2>
+                  <p>Profissionais que orientam a formação em tecnologia e desenvolvimento de soluções digitais.</p>
+                </div>
+                <div class="profile-grid">
+                  <article class="card profile-card" data-experiencia="Engenheiro de software sênior há quase 10 anos.">
+                    <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-sistemas-1">
+                      <img src="assets/img/equipe/Davi%20Saraiva.jpeg" alt="Retrato de Davi Saraiva"
+                        width="1089" height="1600" loading="lazy">
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Docente de Desenvolvimento de Sistemas</p>
+                      <h3 class="profile-name" id="perfil-sistemas-1">Davi Saraiva</h3>
+                      <p class="profile-formation">Bacharel em Ciência da Computação. Pós-graduado em Análise de Dados e Inteligência Artificial.</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-sistemas-1">Ver perfil completo</button>
+                    </div>
+                  </article>
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-sistemas-2">
+                      <img src="assets/img/equipe/Jo%C3%A3o%20Pedro%20Holanda.jpeg" alt="Retrato de João Pedro Holanda"
+                        width="1599" height="1599" loading="lazy">
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Docente de Desenvolvimento de Sistemas</p>
+                      <h3 class="profile-name" id="perfil-sistemas-2">João Pedro Holanda</h3>
+                      <p class="profile-formation">Graduado em Engenharia de Software. Especialista em Robótica.</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-sistemas-2">Ver perfil completo</button>
+                    </div>
+                  </article>
+                </div>
+              </section>
+        </div>
+        <div class="tab-pane" id="painel-analises" role="tabpanel" aria-labelledby="aba-analises" tabindex="0">
+              <section class="team-section" aria-labelledby="titulo-analises">
+                <div class="team-section-heading">
+                  <h2 id="titulo-analises">Análises Clínicas</h2>
+                  <p>A equipe que acompanha a formação na área de investigação laboratorial.</p>
+                </div>
+                <div class="profile-grid">
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-analises-1">
+                      <img src="assets/img/equipe/ronner%20alves.jpeg" alt="Retrato de Ronner Alves"
+                        width="900" height="1600" loading="lazy">
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Docente de Análises Clínicas</p>
+                      <h3 class="profile-name" id="perfil-analises-1">Ronner Alves</h3>
+                      <p class="profile-formation">Bacharelado em Farmácia. Especialista em Farmácia Clínica e Hospitalar. MBA em Gestão.</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-analises-1">Ver perfil completo</button>
+                    </div>
+                  </article>
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-analises-2">
+                      <img src="assets/img/equipe/Nayara.jpeg" alt="Retrato de Nayara"
+                        width="900" height="1600" loading="lazy">
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Docente de Análises Clínicas</p>
+                      <h3 class="profile-name" id="perfil-analises-2">Nayara</h3>
+                      <p class="profile-formation">Graduada em Farmácia pelo Centro Universitário Chrisfapi (UNICHRISFAPI). Mestre em Ciências Farmacêuticas pela Universidade Federal do Piauí (UFPI). Pós-graduada em Toxicologia pela Faculdade Venda Nova do Imigrante (FAVENI). Atualmente, pós-graduanda em Farmácia Clínica Direcionada à Prescrição Farmacêutica e em Docência do Ensino Superior, ambas pela FAVENI.</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-analises-2">Ver perfil completo</button>
+                    </div>
+                  </article>
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-analises-3">
+                      <span class="portrait-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg></span>
+                      <span>Foto a inserir</span>
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Análises Clínicas</p>
+                      <h3 class="profile-name" id="perfil-analises-3">Docente de Análises Clínicas 3</h3>
+                      <p class="profile-formation">Formação a informar</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-analises-3">Ver perfil completo</button>
+                    </div>
+                  </article>
+                </div>
+              </section>
+        </div>
+        <div class="tab-pane" id="painel-farmacia" role="tabpanel" aria-labelledby="aba-farmacia" tabindex="0">
+              <section class="team-section" aria-labelledby="titulo-farmacia">
+                <div class="team-section-heading">
+                  <h2 id="titulo-farmacia">Farmácia</h2>
+                  <p>Profissionais que contribuem para a formação técnica na área farmacêutica.</p>
+                </div>
+                <div class="profile-grid">
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-farmacia-1">
+                      <img src="assets/img/equipe/ronner%20alves.jpeg" alt="Retrato de Ronner Alves"
+                        width="900" height="1600" loading="lazy">
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Docente de Farmácia</p>
+                      <h3 class="profile-name" id="perfil-farmacia-1">Ronner Alves</h3>
+                      <p class="profile-formation">Bacharelado em Farmácia. Especialista em Farmácia Clínica e Hospitalar. MBA em Gestão.</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-farmacia-1">Ver perfil completo</button>
+                    </div>
+                  </article>
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-farmacia-2">
+                      <img src="assets/img/equipe/Nayara.jpeg" alt="Retrato de Nayara"
+                        width="900" height="1600" loading="lazy">
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Docente de Farmácia</p>
+                      <h3 class="profile-name" id="perfil-farmacia-2">Nayara</h3>
+                      <p class="profile-formation">Graduada em Farmácia pelo Centro Universitário Chrisfapi (UNICHRISFAPI). Mestre em Ciências Farmacêuticas pela Universidade Federal do Piauí (UFPI). Pós-graduada em Toxicologia pela Faculdade Venda Nova do Imigrante (FAVENI). Atualmente, pós-graduanda em Farmácia Clínica Direcionada à Prescrição Farmacêutica e em Docência do Ensino Superior, ambas pela FAVENI.</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-farmacia-2">Ver perfil completo</button>
+                    </div>
+                  </article>
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-farmacia-3">
+                      <span class="portrait-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg></span>
+                      <span>Foto a inserir</span>
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Farmácia</p>
+                      <h3 class="profile-name" id="perfil-farmacia-3">Docente de Farmácia 3</h3>
+                      <p class="profile-formation">Formação a informar</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-farmacia-3">Ver perfil completo</button>
+                    </div>
+                  </article>
+                </div>
+              </section>
+        </div>
+        <div class="tab-pane" id="painel-marketing" role="tabpanel" aria-labelledby="aba-marketing" tabindex="0">
+              <section class="team-section" aria-labelledby="titulo-marketing">
+                <div class="team-section-heading">
+                  <h2 id="titulo-marketing">Marketing Digital</h2>
+                  <p>Espaço da equipe responsável pela formação em comunicação e estratégias digitais.</p>
+                </div>
+                <div class="profile-grid">
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-marketing-1">
+                      <span class="portrait-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg></span>
+                      <span>Foto a inserir</span>
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Marketing Digital</p>
+                      <h3 class="profile-name" id="perfil-marketing-1">Docente de Marketing Digital 1</h3>
+                      <p class="profile-formation">Formação a informar</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-marketing-1">Ver perfil completo</button>
+                    </div>
+                  </article>
+                  <article class="card profile-card" data-experiencia="Experiência a informar">
+                    <button type="button" class="profile-photo" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                      aria-label="Ver perfil" aria-describedby="perfil-marketing-2">
+                      <span class="portrait-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg></span>
+                      <span>Foto a inserir</span>
+                    </button>
+                    <div class="card-body">
+                      <p class="profile-role">Marketing Digital</p>
+                      <h3 class="profile-name" id="perfil-marketing-2">Docente de Marketing Digital 2</h3>
+                      <p class="profile-formation">Formação a informar</p>
+                      <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-marketing-2">Ver perfil completo</button>
+                    </div>
+                  </article>
+                </div>
+              </section>
+        </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="painel-base" role="tabpanel" aria-labelledby="aba-base" tabindex="0">
+          <section class="team-section" aria-labelledby="titulo-base">
+            <div class="team-section-heading">
+              <h2 id="titulo-base">Base curricular comum</h2>
+              <p>Diferentes áreas do conhecimento, reunidas na formação dos nossos estudantes.</p>
+            </div>
+            <div class="profile-grid">
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-1">
+                  <img src="assets/img/equipe/Raynara%20Gomes.jpeg" alt="Retrato de Raynara Gomes"
+                    width="1600" height="1066" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Professora de Química</p>
+                  <h3 class="profile-name" id="perfil-base-1">Raynara Gomes</h3>
+                  <p class="profile-formation">Licenciada em Química pela Universidade Federal do Piauí.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-1">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-2">
+                  <img src="assets/img/equipe/Josiel%20Reinaldo.jpeg" alt="Retrato de Josiel Reinaldo"
+                    width="960" height="1280" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Professor de Biologia</p>
+                  <h3 class="profile-name" id="perfil-base-2">Josiel Reinaldo</h3>
+                  <p class="profile-formation">Licenciatura em Ciências Biológicas. Especialista em EPT — Educação Profissional e Tecnologia. Especialista no Ensino de Biologia e Química.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-2">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-3">
+                  <img src="assets/img/equipe/Gilberto.jpeg" alt="Retrato de Prof. Gilberto"
+                    width="1200" height="1599" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Professor de Língua Portuguesa</p>
+                  <h3 class="profile-name" id="perfil-base-3">Prof. Gilberto</h3>
+                  <p class="profile-formation">Licenciatura Plena em Letras/Português. Pós-graduação em Docência, Gestão e Supervisão Escolar.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-3">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-4">
+                  <img src="assets/img/equipe/Dheimison%20Ruan.jpeg" alt="Retrato de Dheimison Ruan"
+                    width="1250" height="1417" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Professor de Fisica</p>
+                  <h3 class="profile-name" id="perfil-base-4">Dheimison Ruan</h3>
+                  <p class="profile-formation">Licenciatura Plena em Física. Pós-graduação em Ensino de Física. Pós-graduação em Metodologias Práticas ao Ensino.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-4">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-5">
+                  <img src="assets/img/equipe/Francimeire.jpeg" alt="Retrato de Francimeire"
+                    width="854" height="1280" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Professora de Produção de Texto</p>
+                  <h3 class="profile-name" id="perfil-base-5">Francimeire</h3>
+                  <p class="profile-formation">Licenciatura em Pedagogia e Licenciatura em Letras Português. Pós-graduação em Psicopedagogia Institucional e Clínica, em ABA e em Literatura e Língua Portuguesa.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-5">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-6">
+                  <img src="assets/img/equipe/gabriel.jpeg" alt="Retrato de Gabriel"
+                    width="899" height="1599" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Professor de Educação Física</p>
+                  <h3 class="profile-name" id="perfil-base-6">Gabriel</h3>
+                  <p class="profile-formation">Licenciado em Educação Física pela UFPI.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-6">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-7">
+                  <img src="assets/img/equipe/Auriana.jpeg" alt="Retrato de Auriana Façanha"
+                    width="1600" height="1200" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Professora de História</p>
+                  <h3 class="profile-name" id="perfil-base-7">Auriana Façanha</h3>
+                  <p class="profile-formation">Licenciatura em Letras/Português e Direito.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-7">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo has-portrait" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-8">
+                  <img src="assets/img/equipe/Marxuel.jpeg" alt="Retrato de Marxuel"
+                    width="944" height="1136" loading="lazy">
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Professor de Matemática</p>
+                  <h3 class="profile-name" id="perfil-base-8">Marxuel</h3>
+                  <p class="profile-formation">Especialização em Ensino de Matemática pelo IFPI. Bacharelado em Matemática e Licenciatura em Matemática pela UFPI.</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-8">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-9">
+                  <span class="portrait-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg></span>
+                  <span>Foto a inserir</span>
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Base curricular comum</p>
+                  <h3 class="profile-name" id="perfil-base-9">Docente de Base curricular comum 9</h3>
+                  <p class="profile-formation">Formação a informar</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-9">Ver perfil completo</button>
+                </div>
+              </article>
+              <article class="card profile-card" data-experiencia="Experiência a informar">
+                <button type="button" class="profile-photo" data-bs-toggle="modal" data-bs-target="#modalPerfil"
+                  aria-label="Ver perfil" aria-describedby="perfil-base-10">
+                  <span class="portrait-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg></span>
+                  <span>Foto a inserir</span>
+                </button>
+                <div class="card-body">
+                  <p class="profile-role">Base curricular comum</p>
+                  <h3 class="profile-name" id="perfil-base-10">Docente de Base curricular comum 10</h3>
+                  <p class="profile-formation">Formação a informar</p>
+                  <button class="profile-action" type="button" data-bs-toggle="modal" data-bs-target="#modalPerfil" aria-describedby="perfil-base-10">Ver perfil completo</button>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+      <p class="team-pending-note">Os perfis ainda sem informações serão atualizados em breve.</p>
+      <!-- Atualize nome, foto, área, formação e data-experiencia no cartão correspondente. -->
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container site-container">
+      <div class="footer-main">
+        <a class="brand" href="index.html" aria-label="CETI Petronio Portella, início">
+          <img class="brand-mark" src="assets/img/escola/logo.jpeg" alt="" width="52" height="52">
+          <span class="brand-text"><span>CETI</span><strong>Petronio Portella</strong></span>
+        </a>
+        <nav aria-label="Links do rodapé">
+          <ul class="footer-links">
+            <li><a class="nav-link" href="index.html">Início</a></li>
+            <li><a class="nav-link active" href="professores.html" aria-current="page">Equipe escolar</a></li>
+            <li><a class="nav-link" href="cursos.html">Cursos técnicos</a></li>
+            <li><a class="nav-link" href="sobre.html">Sobre o colégio</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-credit">Site desenvolvido pelo curso de Análise de Sistemas.</p>
+    </div>
+  </footer>
+  <a class="whatsapp-float" href="sobre.html#contatos" data-whatsapp aria-label="WhatsApp, consultar disponibilidade"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.7 11.7a8.7 8.7 0 0 1-13 7.6L3 20.5l1.2-4.5a8.7 8.7 0 1 1 16.5-4.3z"/><path d="M8.4 8.5c-.6.6-.2 2.5 1.6 4.3s3.7 2.2 4.3 1.6l.8-.8-1.7-1.2-.8.6a7.5 7.5 0 0 1-2.3-2.3l.6-.8L9.7 8z"/></svg><span>WhatsApp</span></a>
+  <div class="modal fade" id="modalPerfil" tabindex="-1" aria-labelledby="nomeModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h4" id="nomeModal">Perfil da equipe escolar</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar perfil"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-photo" id="fotoModal"></div>
+          <p class="modal-profile-role" id="cargoModal"></p>
+          <dl class="profile-details">
+            <dt>Formação</dt>
+            <dd id="formacaoModal"></dd>
+            <dt>Experiências profissionais</dt>
+            <dd id="experienciaModal"></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
