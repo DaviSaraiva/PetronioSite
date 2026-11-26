@@ -23,11 +23,9 @@ profileModal?.addEventListener("show.bs.modal", (event) => {
   portrait.replaceChildren(...Array.from(profile.querySelector(".profile-photo").childNodes, (node) => node.cloneNode(true)));
 });
 
-const projectModal = document.querySelector("#modalPiMundo");
-
-if (projectModal) {
-  const projectSlides = [...document.querySelectorAll("#carrosselPiMundo .carousel-item")];
-  const expandedCarousel = projectModal.querySelector("#carrosselModalPiMundo");
+document.querySelectorAll("[data-project-carousel]").forEach((projectModal) => {
+  const projectSlides = [...document.querySelectorAll(`${projectModal.dataset.projectCarousel} .carousel-item`)];
+  const expandedCarousel = projectModal.querySelector(".project-carousel-expanded");
   const expandedSlides = projectSlides.map((slide) => {
     const expandedSlide = slide.cloneNode(false);
     expandedSlide.append(slide.querySelector("img").cloneNode(true));
@@ -41,4 +39,4 @@ if (projectModal) {
       ?? projectSlides.find((slide) => slide.classList.contains("active"));
     bootstrap.Carousel.getOrCreateInstance(expandedCarousel).to(projectSlides.indexOf(selectedSlide));
   });
-}
+});
